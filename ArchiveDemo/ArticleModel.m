@@ -13,6 +13,7 @@ static NSString * const kArticleContent = @"kArticleContent";
 
 @implementation ArticleModel
 
+
 - (id)init
 {
     self = [super init];
