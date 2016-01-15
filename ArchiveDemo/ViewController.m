@@ -61,22 +61,6 @@
 }
 
 #pragma mark - setters and getters
-/*
-- (void)setTitleField:(UITextField *)titleField
-{
-    _titleField = titleField;
-    
-    self.articleModel.title = _titleField.text;
-}
-
-- (void)setContentTextView:(UITextView *)contentTextView
-{
-    _contentTextView = contentTextView;
-    
-    self.articleModel.content = _contentTextView.text;
-}
- */
-
 - (ArticleModel *)articleModel
 {
     if (!_articleModel) {
