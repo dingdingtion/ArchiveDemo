@@ -43,8 +43,9 @@ static NSString * const kArticleContent = @"kArticleContent";
     
     if (self)
     {
-        _title = [aDecoder decodeObjectForKey:kArticleTitle];
-        _content = [aDecoder decodeObjectForKey:kArticleContent];
+        /// 解码指定类型
+        _title   = [aDecoder decodeObjectOfClass:[NSString class] forKey:kArticleTitle];
+        _content = [aDecoder decodeObjectOfClass:[NSString class] forKey:kArticleContent];
     }
     
     return self;

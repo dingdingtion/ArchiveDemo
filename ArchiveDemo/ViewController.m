@@ -61,6 +61,7 @@
 }
 
 #pragma mark - setters and getters
+
 - (ArticleModel *)articleModel
 {
     if (!_articleModel) {
