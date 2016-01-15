@@ -34,7 +34,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="输入文本内容" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wjx-NV-Aza">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="请输入文本内容" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wjx-NV-Aza">
                                 <rect key="frame" x="69" y="103" width="231" height="142"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
